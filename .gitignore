@@ -3,3 +3,4 @@
 Курс. Введение в машинное обучение/ml-course-msu/
 Specialization. ML and Data Analysis/2_supervised-learning/week 4/assignment 2/.ipynb_checkpoints/
 Specialization. ML and Data Analysis/5_applied_tasks/02-02. Image classification/assignment/vgg16_weights.npz
+*.ipynb_checkpoints
