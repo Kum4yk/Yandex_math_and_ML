@@ -1,0 +1,14 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}Демонстрация анализа тональности отзывов{% endblock %}
+{% block navbar %}
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="{{ url_for('index') }}">Анализ тональности отзывов</a>
+		</div>
+	</nav>
+{% endblock %} 
+{% block content %}
+    <h1>Страница не найдена!</h1>
+    <p><a href="{{ url_for('index') }}">Вернуться на главную страницу</a></p>
+{% endblock %} 
