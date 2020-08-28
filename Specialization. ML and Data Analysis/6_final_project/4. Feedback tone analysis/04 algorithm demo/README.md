@@ -2,7 +2,7 @@
 
 **1. Установка необходимых библиотек**
 
-<code>pip install flask flask-bootstrap flask_wtf wtforms </code>
+<code>pip install flask flask-bootstrap flask_wtf wtforms joblib</code>
 
 **2. Запуск демо**
 
@@ -13,8 +13,16 @@
 **3. Использование**
 
 Открыть в браузере страницу:
-- http://127.0.0.1:8080/
+- http://127.0.0.1:5050/
 
 ___
 
-На скриншотах примеры работы 
+### На скриншотах примеры работы 
+- Есть недостатки в продукте
+<img src="Example_1.PNG" alt="drawing" width="700"/>
+
+- Негативный отзыв
+<img src="Example_2.PNG" alt="drawing" width="700"/>
+
+- Позитивный отзыв
+<img src="Example_3.PNG" alt="drawing" width="700"/>
