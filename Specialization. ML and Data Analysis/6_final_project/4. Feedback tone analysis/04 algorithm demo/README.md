@@ -20,7 +20,9 @@ ___
 ### На скриншотах примеры работы 
 - Есть недостатки в продукте
 <img src="Example_1.PNG" alt="drawing" width="700"/>
+
 - Негативный отзыв
 <img src="Example_2.PNG" alt="drawing" width="700"/>
+
 - Позитивный отзыв
 <img src="Example_3.PNG" alt="drawing" width="700"/>
