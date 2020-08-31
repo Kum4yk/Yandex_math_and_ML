@@ -1,0 +1,41 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}Демонстрация анализа тональности отзывов{% endblock %}
+{% block navbar %}
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<a class="navbar-brand" href="{{ url_for('index') }}">Анализ тональности отзывов</a>
+		</div>
+	</nav>
+{% endblock %} 
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <form method="POST" action="">
+                    {{ form.name.label }} 
+                    {{ form.name(size=600, class="form-control", rows=15, id="review", required="required", value="", 
+                      placeholder="Напишите свой отзыв здесь") }}
+                    {% for error in form.name.errors %}
+                        {{ error }}
+                    {% endfor %}
+                    <br>
+                    <br>
+                    <div class="col-md-4 text-center">
+                    </div>
+                    <div class="col-md-4 text-center">
+                        {{ form.submit(class="btn btn-success btn-block") }}
+                        {{ form.hidden_tag() }}
+                    </div>
+                    <div class="col-md-4 text-center">
+                    </div>
+                </form>
+                <div class="col-md-12 text-center">
+                    {% if name %}
+                        <h1>{{ name }}</h1>
+                    {% endif %}
+                </div>    
+            </div>
+        </div>		
+    </div>	
+{% endblock %}
