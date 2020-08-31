@@ -28,7 +28,7 @@
 
 
 
-**4. Анализ тональности отзывов ([сделано](https://github.com/Kum4yk/Yandex_math_and_ML/tree/master/Specialization.%20ML%20and%20Data%20Analysis/6_final_project/4.%20Feedback%20tone%20analysis/07%20Demonstration%20for%20customer)<img src="https://render.githubusercontent.com/render/math?math=\large\checkmark">)**
+**4. Анализ тональности отзывов ([сделано](https://github.com/Kum4yk/Yandex_math_and_ML/tree/master/6_final_project/4.%20Feedback%20tone%20analysis/07%20Demonstration%20for%20customer)<img src="https://render.githubusercontent.com/render/math?math=\large\checkmark">)**
 <details>
  <summary>Описание</summary>
   <p> 
