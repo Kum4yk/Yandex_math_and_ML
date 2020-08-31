@@ -1,7 +1,5 @@
 *.ipynb_checkpoints
 *.idea
-Specialization. ML and Data Analysis/5_applied_tasks/02-02. Image classification/assignment/vgg16_weights.npz
 __pycache__
-Specialization. ML and Data Analysis/6_final_project/4. Feedback tone analysis/04 algorithm demo/create model/heavy_pipeline_model.pkl
 review
 5_applied_tasks/02-02. Image classification/assignment/vgg16_weights.npz
